@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.progress-container {
+    width: 100%; /* Ensure the container takes the full width of the parent */
+    margin-bottom: 2rem; /* Margin at the bottom to separate from other elements */
+    display: flex;
+    align-items: center;
+}
+
+.progress {
+    width: 70%; /* Adjust this percentage to control the width of the progress bar */
+    height: 20px; /* Set the height of the progress bar */
+    background-color: #e0e0e0; /* Light grey background for the empty portion */
+    position: relative; /* Relative positioning for internal alignment */
+    margin-left: 1rem; /* Space between text and progress bar */
+}
+
+.progress-bar {
+    height: 100%; /* Ensure it takes the full height of the container */
+    background-color: #2d9cdb; /* Set the background color for the progress */
+    display: inline-block; /* Align with text */
+}
+
